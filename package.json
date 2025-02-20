@@ -1,0 +1,17 @@
+{
+    "name": "taboo-typer",
+    "version": "1.0.0",
+    "description": "A JavaScript library for filtering and masking banned words.",
+    "main": "dist/index.js",  
+    "scripts": {
+      "build": "mkdir -p dist && cp src/index.js dist/index.js",
+      "prepublishOnly": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/taboo-typer.git"
+    },
+    "keywords": ["text-filter", "bad-words", "profanity-filter"],
+    "author": "Your Name",
+    "license": "MIT"
+  }
